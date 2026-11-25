@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local environment
+.venv/
+venv/
+env-main/
+env-colabfold/
+.env
+.streamlit/secrets.toml
+
+# Runtime products
+workspace/*
+!workspace/.gitkeep
+.tmp/
+
+# Local launch shortcut / delivery output
+Infinity Workbench.lnk
+iw/
+
+# Reports and generated artifacts outside workspace
+*.log
+*.sqlite
+*.db
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp

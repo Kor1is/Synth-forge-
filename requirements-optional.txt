@@ -1,0 +1,7 @@
+# Optional runtime capabilities. Install only if you need the related module.
+# COBRApy is GPL-3.0; it is intentionally not part of the MIT runtime bundle.
+# M4 reports E_DEP_MISSING with an install hint when it is absent.
+cobra==0.32.1
+
+# Optional PDF export for D1 reports. HTML printing works without it.
+weasyprint==68.1
